@@ -19,7 +19,8 @@
     "react-fast-marquee": "^1.6.4",
     "react-icons": "^5.0.1",
     "react-router-dom": "^6.23.1",
-    "sort-by": "^0.0.2"
+    "sort-by": "^0.0.2",
+    "uri-js": "^4.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",

@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "react-dragon-963ad"
-  }
+    "default": "react-dragon-963ad",
+    "y": "dragon-news-8f86f"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }

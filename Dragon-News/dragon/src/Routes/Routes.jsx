@@ -16,12 +16,12 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home></Home>,
-        loader: () => fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=a0a5dc40630b439795fd61a60ecb2a51')
+        loader: () => fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${import.meta.env.VITE_APIII_KEY}`)
       },
       {
         path: '/news/:id',
         element: <News></News>,
-        loader: () => fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=a0a5dc40630b439795fd61a60ecb2a51')
+        loader: () => fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${import.meta.env.VITE_APIII_KEY}`)
       },
       {
         path: '/login',
